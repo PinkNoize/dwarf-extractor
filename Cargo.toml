@@ -1,0 +1,14 @@
+[package]
+name = "dwarf-extractor"
+version = "0.1.0"
+authors = ["PinkNoize <21967246+PinkNoize@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "3.0.0-beta.2"
+goblin = "0.4"
+anyhow = "1.0.41"
+flate2 = "1.0"
+scroll = "0.10.2"
